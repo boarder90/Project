@@ -22,6 +22,9 @@ target/
 ### database ###
 *.db
 
+### log files ###
+log/
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
