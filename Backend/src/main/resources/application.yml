@@ -1,0 +1,19 @@
+logging:
+  level:
+    root: INFO
+  file:
+    name: ./log/project.log
+
+spring:
+  application:
+    name: demo
+  datasource:
+    url: jdbc:h2:/project;
+    username: admin
+    password: password
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+server:
+  port: 8080
